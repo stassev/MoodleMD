@@ -45,7 +45,7 @@ One can convert the XML file (or any XML back-up of an existing Moodle question 
 python ../MoodleMD.py  example.xml -o example_v1.md 
 ```
 
-If you start with an MD file and have converted that to XML. You may want to convert the XML back to MD as a sanity check, to make sure the script has done its job in parsing all questions correctly:
+If you start with an MD file and have converted that to XML, you may want to convert the XML back to MD as a sanity check. This way you can make sure the script has done its job in parsing all questions correctly:
 
 ```
 # Any differences should be unimportant:
