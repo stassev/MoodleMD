@@ -58,7 +58,11 @@ One can convert the Markdown file to html with Pandoc by using the following com
 pandoc -t html --standalone --css=../css/table.css example.md -o example.html
 ```
 
-### 2.1 Starting with a pre-existing question bank?
+### 2.1 Usage notes
+
+- Latex is inputted inline by enclosing in single dollar signs. 
+
+### 2.2 Starting with a pre-existing question bank?
 
 Export your questions to XML from Moodle, then convert the XML to markdown using the script as shown above. Please watch out for any warnings. 
 
