@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+# Copyright 2023, Svetlin Tassev
+# This file is copyrighted under GPL, v3.
 # # Markdownify
 
 # In[12]:
