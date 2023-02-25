@@ -55,12 +55,13 @@ diff example_v1.md example.md
 One can convert the Markdown file to html with Pandoc by using the following command. Including `table.css` is entirely optional.
 
 ```
-pandoc -t html --standalone --css=../css/table.css example.md -o example.html
+pandoc -t html --standalone --css=./css/table.css example.md -o example.html
 ```
 
 ### 2.1 Usage notes
 
 - Latex is inputted inline by enclosing in single dollar signs. 
+- Once your question database has been converted to Markdown, you can play around feeding the examples to one of the AI platforms out there and asking them to generate questions on particular topics following that format.
 
 ### 2.2 Starting with a pre-existing question bank?
 
