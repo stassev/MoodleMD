@@ -1498,6 +1498,7 @@ def extract_vars(text,N,shared=True):
             dic[d]=eval(dic[d])
             #print(d+"   "+str(dic[d]))
         except:
+            print('There were issues with shared variable: '+d)
             raise #Exception('There were issues with shared variable: '+d)
         i+=1
         
